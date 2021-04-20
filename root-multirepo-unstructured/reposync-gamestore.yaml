@@ -7,7 +7,6 @@ metadata:
   namespace: gamestore
 spec:
   # Since this is for a namespace repository, the format should be unstructured
-  sourceFormat: hierarchy
   git:
     repo: https://github.com/nan-yu/csmr-examples.git
     branch: main
