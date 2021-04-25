@@ -1,8 +1,6 @@
 kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  annotations:
-    configmanagement.gke.io/managed: disabled
   name: gamestore-webstore-admin
   namespace: gamestore
 subjects:
