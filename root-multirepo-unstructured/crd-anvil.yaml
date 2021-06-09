@@ -3,6 +3,7 @@ kind: CustomResourceDefinition
 metadata:
   name: anvils.acme.com
   annotations:
+    configmanagement.gke.io/cluster-selector: selector-env-prod
     configsync.gke.io/cluster-name-selector:  qualification-test-180
 spec:
   group: acme.com

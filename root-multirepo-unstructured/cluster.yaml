@@ -1,0 +1,7 @@
+kind: Cluster
+apiVersion: clusterregistry.k8s.io/v1alpha1
+metadata:
+  name:  qualification-test-180
+  labels:
+    environment: prod
+    location: central
