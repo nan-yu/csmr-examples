@@ -3,7 +3,7 @@ kind: CustomResourceDefinition
 metadata:
   name: anvils.acme.com
   annotations:
-    configsync.gke.io/cluster-name-selector: non-invalid
+    configsync.gke.io/cluster-name-selector:  qualification-test-180
 spec:
   group: acme.com
   versions:
