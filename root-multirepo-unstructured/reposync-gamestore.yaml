@@ -15,5 +15,5 @@ spec:
     # Other supported auth: `ssh`, `cookiefile`, `token`, `gcenode`.
     auth: none
     # Refer to a Secret you create to hold the private key, cookiefile, or token.
-    # secretRef:
-    #   name: SECRET_NAME
+    secretRef:
+      name: SECRET_NAME
