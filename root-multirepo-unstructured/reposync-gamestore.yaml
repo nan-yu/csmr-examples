@@ -1,4 +1,5 @@
-apiVersion: configsync.gke.io/v1alpha1
+#apiVersion: configsync.gke.io/v1alpha1
+apiVersion: configsync.gke.io/v1beta1
 kind: RepoSync
 metadata:
   # There can be at most one RepoSync object per namespace.
